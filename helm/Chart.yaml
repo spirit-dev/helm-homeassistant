@@ -9,7 +9,7 @@ sources:
   - https://github.com/pajikos/home-assistant-helm-chart/tree/main/charts/home-assistant
 dependencies:
   - name: home-assistant
-    repository: http://pajikos.github.io/home-assistant-helm-chart/
+    repository: https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
     version: 0.2.113
 
 type: application
