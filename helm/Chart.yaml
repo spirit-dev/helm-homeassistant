@@ -10,13 +10,13 @@ sources:
 dependencies:
   - name: home-assistant
     repository: https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
-    version: 0.2.113
+    version: 0.3.19
 
 type: application
 
-version: 0.2.113
+version: 0.3.19
 
-appVersion: 2025.3.2
+appVersion: 2025.9.1
 
 keywords:
   - home-assistant
