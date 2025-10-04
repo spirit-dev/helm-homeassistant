@@ -10,7 +10,7 @@ sources:
 dependencies:
   - name: home-assistant
     repository: https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
-    version: 0.3.22
+    version: 0.3.23
 
 type: application
 
@@ -18,7 +18,7 @@ type: application
 version: "0.3.19"
 
 # renovate: datasource=github-releases depName=home-assistant/core
-appVersion: 2025.9.4
+appVersion: 2025.10.1
 
 keywords:
   - home-assistant
