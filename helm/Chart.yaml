@@ -1,0 +1,27 @@
+apiVersion: v2
+name: home-assistant
+description: Automatically Updated Helm Chart for Home Assistant
+home: https://github.com/pajikos/home-assistant-helm-chart
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
+sources:
+  - https://github.com/pajikos/home-assistant-helm-chart
+  - https://github.com/cdr/code-server
+  - https://github.com/pajikos/home-assistant-helm-chart/tree/main/charts/home-assistant
+dependencies:
+  - name: home-assistant
+    repository: https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
+    version: 0.3.32
+
+type: application
+
+# renovate: datasource=helm depName=home-assistant repository=https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
+version: "0.3.19"
+
+# renovate: datasource=github-releases depName=home-assistant/core
+appVersion: 2025.11.3
+
+keywords:
+  - home-assistant
+  - hass
+  - homeassistant
+kubeVersion: ">=1.16.0-0"
