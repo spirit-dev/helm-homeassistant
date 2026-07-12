@@ -1,6 +1,6 @@
 dependencies:
 - name: home-assistant
   repository: https://raw.githubusercontent.com/pajikos/home-assistant-helm-chart/refs/heads/gh-pages/
-  version: 0.3.69
-digest: sha256:03656f768d7c141a24533a3351447ead81931ff8122268179b4459d63bbbfa2c
-generated: "2026-07-05T10:13:38.783742965Z"
+  version: 0.3.70
+digest: sha256:5bc8d424681eeafeb711b79d7de6ecc76a3dcfcd75bab79e84431c25450bcb55
+generated: "2026-07-12T10:14:26.807474518Z"
